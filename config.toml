@@ -1,0 +1,77 @@
+## Basic Configuration
+baseurl = "https://notatall.io/"
+languageCode = "en"
+
+title = "Not At All"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+disqusShortname = "notatall-1"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+summarylength = 30
+
+paginate = 5
+
+## Site Settings
+[params]
+    author = "Lucius Hu"
+    title = "Title"
+    description = "A personal blog."
+    #authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "Lucius Hu"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+    layoutReverse = true
+    sidebarSticky = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "atom-one-dark"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+    toc = "hugo"
+
+    relatedPosts = true # https://gohugo.io/content-management/related
+
+## Social Accounts
+[params.social]
+    github = "lebensterben"
+    #instagram = "<username>"
+    #xing = "<username>"
+    linkedin = "lucius-hu-83721837"
+    #twitter = "<username>"
+    #facebook = "<username>"
+    #stackoverflow = "<username>"
+    #telegram = "<username>"
+    #email = "your-email@example.com"
+    gravatar = "orctarorga@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+#[[menu.main]]
+#    name = "Portfolio"
+#    identifier = "portfolio"
+#    weight = 200
+#    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
