@@ -3,4 +3,4 @@
 	url = https://github.com/htr3n/hyde-hyde.git
 [submodule "themes/tranquilpeak"]
 	path = themes/tranquilpeak
-	url = https://github.com/kakawait/hugo-tranquilpeak-theme.git
+  url = https://github.com/lebensterben/hugo-tranquilpeak-theme.git
