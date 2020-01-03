@@ -72,12 +72,6 @@ canonifyurls = true
   url = "/archives"
 [[menu.main]]
   weight = 5
-  identifier = "posts"
-  name = "All Posts"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-file\"></i>"
-  url = "/posts"
-[[menu.main]]
-  weight = 6
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
