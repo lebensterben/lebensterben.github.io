@@ -9,5 +9,9 @@ Consider each list as a `priority queue` and I will read the ones that popped ou
 ## Rust
 - [Roguelike Tutorial][RLT]: A Rust Tutorial that walks you through the development of a Roguelike game.
 
+## Computer Science
+- [Category Theory for Programmers][CTFP]: Bartosz Milewski's 'Category Theory for Programmers'
+
 
 [RLT]: http://bfnightly.bracketproductions.com/rustbook/chapter_0.html
+[CTFP]: https://github.com/hmemcpy/milewski-ctfp-pdf/
